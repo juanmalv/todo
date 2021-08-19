@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"github.com/urfave/cli/v2"
 	"log"
-	"memoCLI/console"
-	"memoCLI/repository"
+	"todo/console"
+	"todo/repository"
 	"strconv"
 )
 

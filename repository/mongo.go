@@ -2,7 +2,6 @@ package repository
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"time"
 
@@ -39,5 +38,6 @@ func init() {
 		log.Fatal(err)
 	}
 
-	fmt.Println("Connected to MongoDB!")
+	//Un-comment if needed. This is used for testing connections
+	//fmt.Println("Connected to MongoDB!")
 }

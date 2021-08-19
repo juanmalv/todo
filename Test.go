@@ -4,16 +4,15 @@ import (
 	"fmt"
 	"github.com/urfave/cli/v2"
 	"log"
-	"memoCLI/actions"
+	"todo/actions"
 	"os"
 )
 
 func main() {
 	app := &cli.App{
-		Name: "Test",
-		Usage: "fight the loneliness!",
+		Name: "Todo",
+		Usage: "Wait...i can't remember the usage of this app!",
 		Action: func(c *cli.Context) error {
-			fmt.Println("Trolo")
 			return nil
 		},
 		Commands: []*cli.Command{
